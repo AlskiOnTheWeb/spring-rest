@@ -74,3 +74,8 @@ jobs:
       
       - store_artifacts:
           path: target/spring-rest-0.0.1-SNAPSHOT.jar
+          name: spring-rest.jar
+          
+      - store_artifacts:
+          path: ~/.caches/app.tar
+          name: docker-images.tar
